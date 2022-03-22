@@ -1,0 +1,120 @@
+:root {
+	--white: #FFFFFF;
+	--pink: #B279A7;
+	--red: #9F2042;
+	--gray: #EEE5E9;
+	--green: #0B7A75;
+
+	--star-rating-size: 5rem;
+	--unchecked-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'%3e%3cpath fill='%23fff' stroke='%23666' d='m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z'/%3e%3c/svg%3e");
+    --checked-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'%3e%3cpath fill='gold' stroke='%23666' stroke-width='2' d='m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z'/%3e%3c/svg%3e");
+	--hovered-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'%3e%3cpath fill='red' stroke='%23fff' stroke-width='2' d='m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z'/%3e%3c/svg%3e");
+	--max-stars: 5;
+}
+
+
+body {
+	background-color:  var(--white);
+	font-family: Arial, sans-serif;
+
+}
+#name {
+	text-align: center;
+	color: var(--pink);
+}
+
+#buffer {
+	width: 100%;
+	margin-left: 175px; 
+}
+#images {
+	outline-style: solid;
+	outline-color: black;
+	margin: 15px;
+}
+
+div.price {
+	color: var(--red);
+}
+
+div.gallery {
+	padding: 15px;
+	border-radius: 25px;
+	margin: 25px;
+	order: 1px solid #ccc;
+	float: left;
+	width: 300px;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	background-color: var(--gray);
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+	color: var(--green);
+}
+
+div.title{
+	color: var(--green);
+	margin-bottom: 10px;
+}
+
+nav {
+	text-align: center;
+}
+
+
+#furniture {
+	margin-bottom: 5px;
+}
+
+#shop {
+	text-align: center;
+}
+a{
+	border: 2px;
+	background-color: var(--gray);
+	border-style: solid;
+	text-align: center;
+	margin-left: 825px;
+	margin-right: 825px;
+	padding: 15px 25px;
+	border-radius: 25px;
+	text-decoration: none;
+}
+a:link, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: white;
+}
+
+#deal {
+	font-size: 12px;
+	position: fixed;
+	bottom: 5px;
+	text-align: center;
+	margin-left: 400px;
+	margin-top: 10px;
+}
+
+#sorted{
+	text-align: center;
+	margin-left: 300px;
+	position: sticky;
+
+}
+
+#review{
+	text-align: center;
+}
+
+/*Photo gallery styling from https://www.w3schools.com/css/css_image_gallery.asp edited to fit my needs.

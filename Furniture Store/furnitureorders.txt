@@ -1,0 +1,4 @@
+Name: 6 6 Price: $137.70 Date: 09/23/2021
+Name: 8 8 Price: $3,850.09 Date: 09/23/2021
+Name:  Chuck Gustner Price: $5,508.00 Date: 09/23/2021
+Name: 1 2 Price: $5,508.00 Date: 09/23/2021

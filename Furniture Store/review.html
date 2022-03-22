@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Really Bad Furniture Store</title>
+	<link rel="stylesheet" href="review.css">
+</head>
+<body>
+
+	<h1 id="name"> Really Bad Furniture Store</h1>
+	<div class="rating">
+		<label for="furniture">Product:</label>	
+		<select name="furniture" id="furniture" form="submit">
+			<option value="">Select an item</option>
+			<optgroup label="Beds">
+				<option value="Bed">Bed</option>
+			</optgroup>
+			<optgroup label="Chairs">
+				<option value="Green Chair">Green Chair</option>
+				<option value="Ugly Chair">Ugly Chair</option>
+			</optgroup>
+			<optgroup label="Couches">
+				<option value="Blue Couch">Blue Couch</option>
+				<option value="Weird Couch">Weird Couch</option>
+				<option value="White Couch">White Couch</option>
+				<option value="Gray Couch">Gray Couch</option>
+			</optgroup>
+			<optgroup label="Tables">
+				<option value="Table">Table with Chairs</option>
+			</optgroup>	
+			<optgroup label="Membership">
+				<option value="Membership">Membership</option>
+			</optgroup>
+		</select>
+
+		<form action="results.php" id="submit" method="post">
+			Rating:
+			<input type="radio" id="1 star" name="rating" value="1">
+			<label for="1 star"><img src="images/star.png" width=35px height=35px></label>
+			<input type="radio" id="2 star" name="rating" value="2">
+			<label for="2 star"><img src="images/star.png" width=35px height=35px><img src="images/star.png" width=35px height=35px></label>
+			<input type="radio" id="3 star" name="rating" value="3">
+			<label for="3 star"><img src="images/star.png" width=35px height=35px><img src="images/star.png" width=35px height=35px><img src="images/star.png" width=35px height=35px></label>
+			<input type="radio" id="4 star" name="rating" value="4">
+			<label for="4 star"><img src="images/star.png" width=35px height=35px><img src="images/star.png" width=35px height=35px><img src="images/star.png" width=35px height=35px><img src="images/star.png" width=35px height=35px></label>
+			<input type="radio" id="5 star" name="rating" value="5">
+			<label for="5 star"><img src="images/star.png" width=35px height=35px><img src="images/star.png" width=35px height=35px><img src="images/star.png" width=35px height=35px><img src="images/star.png" width=35px height=35px><img src="images/star.png" width=35px height=35px></label><br>
+			<textarea id="message" name="message" rows="10" cols="30"></textarea><br>
+			<input type="submit">
+		</form>
+		
+		<br>
+
+	</div>
+</body>
+</html>

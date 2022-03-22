@@ -1,0 +1,29 @@
+:root {
+	--white: #FFFFFF;
+	--pink: #B279A7;
+	--red: #9F2042;
+	--gray: #EEE5E9;
+	--green: #0B7A75;
+}
+
+body {
+	background-color: var(--white);
+	font-family: Arial, sans-serif;
+}
+
+#name {
+	text-align: center;
+	color: var(--pink);
+}
+label {
+	color: var(--green);
+}
+#outside-box {
+	text-align: center;
+	border: 2px;
+	border-style: solid;
+	border-radius: 25px;
+	margin-left: 675px;
+	margin-right: 675px;
+	padding: 15px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Really Really Bad Furniture</title>
+		<link rel="stylesheet" href="formstylesheet.css">
+		<h1 id="name"> Really Bad Furniture Store</h1>
+	</head>
+	<body>
+
+		<div id="item-selection">
+			<label for="funiture">Pick an item:</label>
+			<select name="furniture" id="furniture" form="submit">
+				<option value="">Select an item</option>
+				<optgroup label="Beds">
+					<option value="Bed">Bed</option>
+				</optgroup>
+				<optgroup label="Chairs">
+					<option value="Green Chair">Green Chair</option>
+					<option value="Ugly Chair">Ugly Chair</option>
+				</optgroup>
+				<optgroup label="Couches">
+					<option value="Blue Couch">Blue Couch</option>
+					<option value="Weird Couch">Weird Couch</option>
+					<option value="White Couch">White Couch</option>
+					<option value="Gray Couch">Gray Couch</option>
+				</optgroup>
+				<optgroup label="Tables">
+					<option value="Table">Table with Chairs</option>
+				</optgroup>	
+				<optgroup label="Membership">
+					<option value="Membership">Membership</option>
+				</optgroup>
+
+			</select>		
+			<br>
+			<form action="shop.php" id="submit" method="post">
+				Quantity: <input type="text" id="quantity-input" name="quantity"><br>
+				Pickup or Deliver:<br>
+				<input type="radio" id="delivery" name="method" value="delivery">
+				<label for="delivery">Delivery</label><br>
+				<input type="radio" id="pickup" name="method" value="pickup">
+				<label for="pickup">Pickup</label><br>
+				<br>
+
+				Membership status:<br>
+				<input type="radio" id="membership" name="membership" value="nonmember">
+				<label for="nonmember">Non Member</label><br>
+				<input type="radio" id="membership" name="membership" value="member">
+				<label for="member">Member</label><br>
+				<br>
+				First Name: <input type="text" id="nameInput" name="fname"><br>
+				Last Name: <input type="text" id='nameInput' name="lname"><br>
+				Address 1:<input type="text" id="address" name="address1"><br>
+				Address 2:<input type="text" id="address" name="address2"><br>
+				<input type="submit">
+			</form>
+		</div>
+	</body>
+</html>

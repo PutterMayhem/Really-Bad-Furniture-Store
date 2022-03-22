@@ -1,0 +1,25 @@
+:root {
+	--white: #FFFFFF;
+	--pink: #B279A7;
+	--red: #9F2042;
+	--gray: #EEE5E9;
+	--green: #0B7A75;
+}
+#name {
+	text-align: center;
+	color: var(--pink);
+}
+body {
+	background-color: var(--white);
+	font-family: Arial, sans-serif;
+}
+
+#results{
+	text-align: center;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 25px;
+	padding: 10px;
+	margin-left: 750px;
+	margin-right: 750px;
+}

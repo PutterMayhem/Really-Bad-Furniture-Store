@@ -1,0 +1,29 @@
+:root {
+	--white: #FFFFFF;
+	--pink: #B279A7;
+	--red: #9F2042;
+	--gray: #EEE5E9;
+	--green: #0B7A75;
+}
+body{	
+	font-family: Arial, sans-serif;}
+
+form{
+}
+
+#name{
+	text-align: center;
+	color: var(--pink);
+}
+
+.rating{
+	text-align: center;
+}
+
+#message{
+	margin: 10px;
+}
+
+#furniture{
+	margin-bottom: 10px;
+}
